@@ -1,0 +1,28 @@
+nav {
+  padding: 2em 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .menu__item {
+    display: inline-block;
+    font-family: $default-font;
+    font-size: 0.75em;
+    padding: 1em;
+  }
+
+  a {
+      color: $dark-text;
+      text-decoration: none;
+  }
+}

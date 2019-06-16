@@ -1,0 +1,48 @@
+/*
+@import "./fonts";
+@import "./gradients";
+@import "./hero";
+@import "./gallery";
+@import "./story";
+@import "./about";
+@import "./anim-logo";
+@import "./footer";
+*/
+
+@import "./reset";
+@import "./variables";
+@import "./nav";
+
+.site-wrapper {
+    max-width: $max-site-width;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+}
+
+.hero {
+    padding: 2em 4em;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin:0;
+    padding:0;
+    font-family: $default-font;
+    line-height: 1em * 1.25;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
