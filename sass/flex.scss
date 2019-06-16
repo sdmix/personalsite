@@ -1,0 +1,34 @@
+.flex-container {
+    padding: 0;
+    margin: calc($site-padding / 2);
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    background: $primary-color;
+    width: 240px;
+
+    margin: 1vw 1vw;
+    padding: 2rem;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+  }

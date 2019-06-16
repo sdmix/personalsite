@@ -1,0 +1,188 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: $default-font;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    line-height: 1.5em;
+    color: $primary-color;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    line-height: 1.2em;
+    color: $dark-text;
+}
+
+p {
+    font-family: $default-font;
+    font-weight: 400;
+    font-size: $default-font-size;
+    line-height: 2em;
+    color: $dark-text;
+}
+
+.light-text {
+    color:$light-text;
+}
+.dark-text {
+    color:$dark-text;
+}
+
+
+/*
+h1 {
+
+    font-weight: 400;
+    font-size: 2em;
+    color: $themecolor;
+    line-height: 1.5em;
+
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size: 1.5em;
+    }
+}
+
+h2 {
+
+    font-weight: 300;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    color: $themecolor;
+
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size: 1.2em;
+    }
+}
+
+h3 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 2em;
+    color: $themecolor;
+}
+
+
+h4 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 2em;
+
+    @media only screen and (max-width :$smalltextmaxwidth) {
+        font-size: 1.2em;
+    }
+}
+
+h5 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    line-height: 1.5em;
+
+    @media only screen and (max-width :$smalltextmaxwidth) {
+        font-size: 0.8em;
+    }
+}
+
+h6 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 1.5em;
+
+    @media only screen and (max-width :$smalltextmaxwidth) {
+        font-size: 0.8em;
+    }
+}
+
+
+p {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 2em;
+    color: #000;
+
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size: 1em;
+    }
+}
+
+.list {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 2em;
+    list-style-type: decimal;
+    color: #000;
+    padding-left: 1.5em;
+
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size: 1em;
+    }
+}
+
+.lists ol {
+    list-style-type: decimal;
+    padding-left: 1.9em;
+}
+
+.lists p {
+    padding-left: 1em;
+}
+
+.lists li {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding-left: 0.5em;
+    color: $themecolor;
+
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size: 1em;
+    }
+}
+
+
+p a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    line-height: inherit;
+    color: inherit;
+    text-decoration: underline;
+}
+
+p a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    line-height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.quote {
+    font-style: italic;
+}
+
+*/
