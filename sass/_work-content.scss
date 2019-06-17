@@ -1,0 +1,25 @@
+.work-content {
+    cursor: pointer;
+
+    border: 2px solid $primary-color;
+
+    &--overlay {
+        display: flex;
+        align-items: center;
+        padding: 2vw;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        backdrop-filter: blur(2px);
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+
+    &:hover {
+        & .work-content--overlay {
+            opacity: 1;
+        }
+    }
+}

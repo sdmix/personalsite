@@ -11,16 +11,21 @@
 
 @import "./reset";
 @import "./variables";
-@import "./fonts";
-@import "./nav";
-@import "./hero";
-@import "./slideshow";
-@import "./flex";
-@import "./modules";
-@import "./helper";
 
 .site-wrapper {
     max-width: $max-site-width;
     margin: 0 auto;
     padding: 0 $site-padding;
 }
+
+@import "./fonts";
+@import "./buttons";
+@import "./nav";
+@import "./hero";
+@import "./slideshow";
+@import "./flex";
+@import "./modules";
+@import "./work-content";
+@import "./helper";
+@import "./footer";
+

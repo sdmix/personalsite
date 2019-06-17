@@ -1,8 +1,7 @@
 .flex-container {
     padding: 0;
     margin: 0;
-    list-style: none;
-    
+
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -15,21 +14,20 @@
   }
   
   .flex-item {
-    background: $primary-color;
-    width: 240px;
-
-    margin: $content-margin;
-    //padding: 2rem;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3rem;
-    text-align: center;
-
+    position: relative;
     flex: auto;
     flex-direction: column;
     justify-content: center;
+    margin: $content-margin;
+    width: 340px;
+    background: $primary-color;
+    line-height: 0;
 
-    position: relative;
+    &--start {
+      align-self: flex-start;
+    }
+
+    &--end {
+      align-self: flex-end;
+    }
   }

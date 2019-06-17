@@ -1,0 +1,47 @@
+.btn {
+    position: relative;
+
+    font-family: $default-font;
+    font-weight: 700;
+    color: $dark-text;
+
+    background: $light-text;
+    border: 2px solid $primary-color;
+
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius;
+
+    cursor: pointer;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        box-shadow: 0 4px 0 #000;
+        opacity: 0;
+        will-change: opacity;
+    }
+
+    &:hover {
+        background: $primary-color;
+        border: 2px solid $light-text;
+        color: $light-text;
+    }
+}
+
+/*
+style="
+    background: white;
+    border: 2px solid #ff6900;
+    border-radius: 10px;
+    color: #ff6900;
+    font-size: 1rem;
+    font-family: Aleo;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 25px;
+"
+*/

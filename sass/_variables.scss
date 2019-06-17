@@ -6,12 +6,14 @@ $light-text: #f1f1f1;
 $max-site-width: 1400px;
 $inner-width: 1000px;
 $inner-width-thin: 700px;
-$site-padding: 5vw;
-$content-margin: 1vw;
+$site-padding: 1.5rem;
+$content-margin: 0.5rem;
 
-$m-breakpoint: 500px;
-$l-breakpoint: 769px;
-$xl-breakpoint: 1025px;
+$small-breakpoint: 500px;
+$medium-breakpoint: 900px;
+$large-breakpoint: 1200px;
 
 $default-font: 'Aleo', Arial, sans-serif;
 $default-font-size: 16px;
+
+$border-radius: 10px;
