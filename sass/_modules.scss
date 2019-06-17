@@ -1,0 +1,12 @@
+%module-shared {
+    display: flex;
+}
+
+.module {
+    &--center {
+        @extend %module-shared;
+        align-items: center;
+        height: 100%;    
+    }
+}
+

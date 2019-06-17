@@ -5,7 +5,7 @@ var makeBSS = function (a, b) {
             init: function (a, b) {
                 this.counter = 0, this.el = a, this.$items = a.querySelectorAll("figure"), this.numItems = this.$items.length, b = b || {}, b.auto = b.auto || !1, this.opts = {
                     auto: "undefined" == typeof b.auto ? !1 : b.auto,
-                    speed: "undefined" == typeof b.auto.speed ? 2500 : b.auto.speed
+                    speed: "undefined" == typeof b.auto.speed ? 4000 : b.auto.speed
                 }, this.$items[0].classList.add("bss-show"), this.opts.auto && this.autoCycle(this.el, this.opts.speed, this.opts.pauseOnHover), this.opts.fullScreen && this.addFullScreen(this.el), this.opts.swipe && this.addSwipe(this.el)
             },
             showCurrent: function (a) {
