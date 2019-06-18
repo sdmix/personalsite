@@ -1,7 +1,7 @@
 .work-content {
     cursor: pointer;
 
-    border: 2px solid $primary-color;
+    //border: 2px solid $primary-color;
 
     &--overlay {
         display: flex;
@@ -12,12 +12,15 @@
         position: absolute;
         top: 0;
         z-index: 3;
-        backdrop-filter: blur(2px);
+        //backdrop-filter: blur(2px);
         opacity: 0;
         transition: opacity 0.2s;
     }
 
     &:hover {
+        img {
+            filter: blur(2px);
+        }
         & .work-content--overlay {
             opacity: 1;
         }

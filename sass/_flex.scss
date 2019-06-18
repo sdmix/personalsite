@@ -20,8 +20,9 @@
     justify-content: center;
     margin: $content-margin;
     width: 340px;
-    background: $primary-color;
+    //background: $primary-color;
     line-height: 0;
+    overflow: hidden;
 
     &--start {
       align-self: flex-start;
