@@ -1,5 +1,5 @@
-@import "./reset";
-@import "./variables";
+@import "reset";
+@import "variables";
 
 .site-wrapper {
     max-width: $max-site-width;
@@ -7,15 +7,15 @@
     padding: 0 $site-padding;
 }
 
-@import "./fonts";
-@import "./links";
-@import "./buttons";
-@import "./nav";
-@import "./hero";
-@import "./slideshow";
-@import "./flex";
-@import "./modules";
-@import "./work-content";
-@import "./helper";
-@import "./footer";
+@import "fonts";
+@import "links";
+@import "buttons";
+@import "nav";
+@import "hero";
+@import "slideshow";
+@import "flex";
+@import "modules";
+@import "work-content";
+@import "helper";
+@import "footer";
 

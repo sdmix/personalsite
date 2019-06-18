@@ -6,8 +6,9 @@ h4 a,
 h5 a,
 h6 a {
     line-height: inherit;
-    color: inherit;
-    text-decoration: underline;
+    color: $primary-color;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 p a:hover,
@@ -18,6 +19,7 @@ h4 a:hover,
 h5 a:hover,
 h6 a:hover {
     line-height: inherit;
-    color: inherit;
-    text-decoration: none;
+    color: $primary-color;
+    font-weight: bold;
+    text-decoration: underline;
 }
