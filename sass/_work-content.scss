@@ -26,6 +26,18 @@
         }
     }
 }
+
+.experience {
+    &-wrapper {
+        display: inline-block;
+        padding-right: 2em;
+    }
+
+    img {
+        display: block;
+    }
+}
+
 .knowledge-background {
     background: $primary-color;
 
