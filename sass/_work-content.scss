@@ -26,3 +26,62 @@
         }
     }
 }
+.knowledge-background {
+    background: $primary-color;
+
+    h1,
+    h2 {
+        color: $light-text;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $light-text;
+    }
+}
+
+.knowledge-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.knowledge {
+    display: inline-block;
+    min-width: 240px;
+
+    color: $lightish-text;
+
+    @media only screen and (min-width: 620px) {
+        padding-top: 0;
+    }
+
+    ul {
+        padding-inline-start: 0;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+
+    &__list {
+
+        &--item {
+            font-family: $default-font;
+        }
+    }
+
+    &__disclaimer {
+        flex-basis: 100%;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 6% 0 0;
+        color: $primary-color;
+
+        p {
+            margin: 0;
+        }
+    }
+}

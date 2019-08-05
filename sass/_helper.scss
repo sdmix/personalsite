@@ -1,8 +1,13 @@
+// Spacing helpers
 .content-margin {
     margin: 1rem $content-margin;
 
     &--edges {
         margin: 0 $content-margin;
+    }
+
+    &--topbottom {
+        margin: 1em 0;
     }
 }
 
@@ -12,10 +17,20 @@
     &--edges {
         padding: 0 $content-margin;
     }
+
+    &--topbottom {
+        padding: 1em 0;
+    }
 }
 
 .full-width {
     width: 100%;
+}
+
+.width {
+    &--60 {
+        width: 60%;
+    }
 }
 
 .full-height {
@@ -78,4 +93,34 @@
     &--3 {
         margin-bottom: -3rem;
     }
+}
+
+
+// Font helpers
+.font-80 {
+    font-size: 80%;
+}
+
+.light-text {
+    color: $light-text;
+}
+
+.lightish-text {
+    color: $lightish-text;
+}
+
+.dark-text {
+    color: $dark-text;
+}
+
+.theme-text {
+    color: $primary-color;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.i-text {
+    font-style: italic;
 }
