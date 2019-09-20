@@ -1,4 +1,5 @@
 .work-content {
+    position: relative;
     //cursor: pointer;
 
     //border: 2px solid $primary-color;
@@ -97,4 +98,123 @@
             margin: 0;
         }
     }
+}
+
+.project {
+    header {
+        align-items: center;
+        display: flex;
+        font-size: 18px;
+        height: 50vh;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 3rem;
+
+        img {
+            margin-top: -3rem;
+            max-width: 80vw;
+        }
+      }
+      
+      header:before {
+        animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
+        background: $primary-color;
+        content: "";
+        opacity: 0;
+        position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+        z-index: -1;
+      }
+      
+      header:after {
+        animation: rotate-up .5s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
+        background: #fff;
+        content: "";
+        height: 40rem;
+        left: -5%;
+        position: absolute;
+          right: -5%;
+          top: 90%;
+        transform-origin: 0 0;
+        z-index: 0;
+      }
+      
+      .header-title, .header-subtitle {
+        color: #fff;
+      }
+      
+      .header-subtitle {
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+      }
+      
+      .header-button {
+        transform: translateZ(.1px);
+        position: relative;
+        z-index: 10;
+      }
+
+      .site-wrapper {
+        padding: 0 6rem;
+
+        @media only screen and (max-width: $medium-breakpoint) {
+            padding: 0 2rem;
+        }
+      }
+      
+      .animate-pop-in {
+        animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+        opacity: 0;
+      }
+      
+      .rocky-dashed {
+        animation-delay: .6s;
+      }
+      
+      .header-title {
+        animation-delay: .8s;
+      }
+      
+      .header-subtitle {
+        animation-delay: 1s;
+      }
+      
+      .header-button {
+        animation-delay: 1.1s;
+      }
+      
+      
+      /* Animations */
+      
+      @keyframes fade-slide-down {
+        0% {
+          opacity: 0;
+          transform: translateY(-4rem);
+        }
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      
+      @keyframes pop-in {
+        0% {
+          opacity: 0;
+          transform: translateY(-4rem) scale(.8);
+        }
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      
+      @keyframes rotate-up {
+        100% {
+          transform: rotateZ(-4deg);
+        }
+      }
 }
