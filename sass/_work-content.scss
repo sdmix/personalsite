@@ -118,7 +118,7 @@
       }
       
       header:before {
-        animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
+        animation: fade-slide-down 2s .1s cubic-bezier(0, 0.5, 0, 1) forwards;
         background: $primary-color;
         content: "";
         opacity: 0;
@@ -129,9 +129,17 @@
           left: 0;
         z-index: -1;
       }
+
+      &--vegas {
+        header:before {
+          background: url("../assets/v-games.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
       
       header:after {
-        animation: rotate-up .5s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
+        animation: rotate-up 2s 1s cubic-bezier(0, 0.5, 0, 1) forwards;
         background: #fff;
         content: "";
         height: 40rem;
@@ -167,24 +175,12 @@
       }
       
       .animate-pop-in {
-        animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+        animation: pop-in 2s .5s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
         opacity: 0;
       }
       
-      .rocky-dashed {
+      .animate-logo {
         animation-delay: .6s;
-      }
-      
-      .header-title {
-        animation-delay: .8s;
-      }
-      
-      .header-subtitle {
-        animation-delay: 1s;
-      }
-      
-      .header-button {
-        animation-delay: 1.1s;
       }
       
       
