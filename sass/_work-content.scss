@@ -137,6 +137,14 @@
           background-size: cover;
         }
       }
+
+      &--poker {
+        header:before {
+          background: url("../assets/p-cards.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
       
       header:after {
         animation: rotate-up 2s 1s cubic-bezier(0, 0.5, 0, 1) forwards;
